@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31710.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{15C84BFB-3666-4F8E-B717-E6E66ECFCDE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightningRodInteractive.FolderOrganiser", "LightningRodInteractive.FolderOrganiser\LightningRodInteractive.FolderOrganiser.csproj", "{F6BA85FA-8084-415B-A0DC-8B1E5F9E4049}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightningRodInteractive.FolderOrganiser", "src\LightningRodInteractive.FolderOrganiser\LightningRodInteractive.FolderOrganiser.csproj", "{F9516B41-F525-4AD2-95B6-9F74ABB73031}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F6BA85FA-8084-415B-A0DC-8B1E5F9E4049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6BA85FA-8084-415B-A0DC-8B1E5F9E4049}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6BA85FA-8084-415B-A0DC-8B1E5F9E4049}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6BA85FA-8084-415B-A0DC-8B1E5F9E4049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9516B41-F525-4AD2-95B6-9F74ABB73031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9516B41-F525-4AD2-95B6-9F74ABB73031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9516B41-F525-4AD2-95B6-9F74ABB73031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9516B41-F525-4AD2-95B6-9F74ABB73031}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F6BA85FA-8084-415B-A0DC-8B1E5F9E4049} = {15C84BFB-3666-4F8E-B717-E6E66ECFCDE7}
+		{F9516B41-F525-4AD2-95B6-9F74ABB73031} = {15C84BFB-3666-4F8E-B717-E6E66ECFCDE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BDE9C724-9ABE-45D5-997B-08C0B49CC559}
