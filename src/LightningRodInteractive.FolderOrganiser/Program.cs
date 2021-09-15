@@ -8,9 +8,8 @@ foreach(var file in Directory.EnumerateFiles(Environment.CurrentDirectory))
         continue;
     }
     var modifiedTime = File.GetLastWriteTime(file);
-    bool shouldArchive = modifiedTime.Year < currentYear;
     var folderRoot = string.Empty;
-    if (shouldArchive)
+    if (modifiedTime.Year < currentYear)
     {
         CreateFolder("Archive");
         folderRoot = "Archive";
